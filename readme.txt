@@ -1,1 +1,0 @@
-http://v.bootstrapmb.com/2018/10/dekwi2479/minimallite-admin-main/index.html
