@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>系统列表</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <!-- Bootstrap 4.0-->
+        <link rel="stylesheet" href="../assets/vendor_components/bootstrap/dist/css/bootstrap.min.css">
+        <!-- Bootstrap 4.0-->
+        <link rel="stylesheet" href="../assets/vendor_components/bootstrap/dist/css/bootstrap-extend.css">
+        <link rel="stylesheet" href="../minimallite-admin-main/css/master_style.css">
+        <style type="text/css">
+                        .content{
+                        padding: 0px;
+                        }
+                        .title{
+                        font-size: 0.9vw;
+                        }
+                        .system-item{
+                        cursor: pointer;
+                        }
+                        .box:hover{
+                            background-color: #f2f2f2;
+                        }
+                        .container{
+                        height: 100%;
+                        }
+                        .content-center{
+                        justify-content: center;
+                        }
+                        .page-input{
+                        height: 2rem;
+                        min-height: 0px ! important;
+                        line-height: 1.25;
+                        }
+                        .page-go{
+                        height: 2rem;
+                        line-height: 1.25;
+                        }
+                        .pl-5{
+                          padding-left:5px;
+                        }
+                        .pr-5{
+                          padding-right:5px;
+                        }
+                        @media (min-width: 768px){
+                        .container{
+                            padding: 15% 20% 15% 20%;
+                        }
+                        }
+                        @media (min-width: 992px){
+                        .container{
+                            padding: 15% 20% 15% 20%;
+                        }
+                        }
+                        @media (min-width: 1200px){
+                        .container{
+                            padding: 13% 28% 13% 28%;
+                        }
+                        }
+                        
+                        @media (max-width: 767px){
+                        .container{
+                            padding: 35% 2% 35% 2%;
+                        }
+                        }
+
+                                        
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <section class="content">
+                <div class="row content-center">
+                    <div class="system-item col-5 col-md-4 col-lg-3 col-xl-3">
+                        <div class="box box-body">
+                            <div class="text-center pt-3">
+                                <img class="avatar avatar-lg" src="../images/avatar/8.jpg">
+                                <div class="mt-15 mb-0 title">用户管理系统</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav>
+                    <ul class="pagination justify-content-center" id="pagination" onselectstart="return false">
+                    </ul>
+                </nav>
+            </section>
+        </div>
+        <script type="text/javascript" src="./plugins/pagination.js"></script>
+        <script type="text/javascript" src="./js/system_list.js"></script>
+    </body>
+</html>
